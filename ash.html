@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>js mini project</title>
+    <link rel="stylesheet" href="ash.css">
+</head>
+<body>
+    <div class="navbar">
+        <h1>BOOKSKY</h1>
+    </div>
+ <div class="container">
+        <div class="book-container">
+            <h2>Harry Potter</h2>
+            <h4>JK Rowling</h4>
+            <p>harry pottter Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat similique voluptatem fugiat, repudiandae, necessitatibus officia pariatur architecto delectus dolor amet blanditiis iste modi. Odit illo dolore debitis asperiores adipisci libero!</p>
+        <button onclick="deletebook(event)">Delete</button> 
+        </div>
+       
+        
+    </div>
+
+    <div class="overlay"></div>
+
+    <div class="popup-box">
+        <form>
+            <h2>ADD BOOK</h2>
+            <input type="text" placeholder="Enter book title" id="book-title">
+            <input type="text" placeholder="Enter the Auther name" id="auther-name">
+            <textarea placeholder="short Description" id="book-description"></textarea>
+            <button id="add-book">Add</button>
+            <button id="cancel-popup">cancel</button>
+        </form>
+    </div>
+
+    <button class="add-button" id="add-popup-button" onclick="">+</button>
+    <script src="ash.js"></script>
+</body>
+</html>
